@@ -27,7 +27,7 @@ public class Circle {
     }
 
     public String toString(){
-        return "Circle[radius="+radius+"]";
+        return "Circle is "+radius+"";
     }
 
     public static void main(String[] args) {
@@ -41,4 +41,3 @@ public class Circle {
     }
 
 }
-
