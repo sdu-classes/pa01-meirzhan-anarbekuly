@@ -1,5 +1,5 @@
 public class Circle {
-    double radius = 1.0;
+    private double radius = 1.0;
 
     public Circle() {
     }
@@ -28,7 +28,7 @@ public class Circle {
     }
 
     public String toString() {
-        return "" + radius + "";
+        return radius + "";
     }
 
     public static void main(String[] args) {
